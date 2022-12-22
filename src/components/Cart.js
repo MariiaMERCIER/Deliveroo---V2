@@ -1,7 +1,6 @@
 import { memo } from "react";
 
 const Cart = ({ cart, handleRemoveFromCart, handleAddToCart, total }) => {
-  console.log("rendre cart");
   return cart.length !== 0 ? (
     <div className="cart">
       {cart.map((meal) => {

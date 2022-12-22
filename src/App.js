@@ -62,7 +62,7 @@ function App() {
   }, []);
 
   let total = useMemo(() => {
-    calculateTotal(cart);
+    return calculateTotal(cart);
   }, [cart]);
 
   return isLoading ? (
